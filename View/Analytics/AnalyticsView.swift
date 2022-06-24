@@ -10,7 +10,7 @@ struct AnalyticsView: View {
             VStack() {
                 LineChartView(data: historyViewModel.activityHistoryLine, title: "Progression", form:ChartForm.extraLarge, dropShadow: true)
                     .padding(.vertical, 30)
-                BarChartView(data: ChartData(values: priceListViewModel.charDataList), title: "Particularly", form:ChartForm.extraLarge, dropShadow: true)
+                BarChartView(data: ChartData(values: priceListViewModel.charDataList), title: "Holdings", form:ChartForm.extraLarge, dropShadow: true)
                 Spacer()
             }.navigationTitle("Analytics")
         }
