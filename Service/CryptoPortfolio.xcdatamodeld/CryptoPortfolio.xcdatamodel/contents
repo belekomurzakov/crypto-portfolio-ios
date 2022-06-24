@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ActivityHistory" representedClassName="ActivityHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cryptoId" optional="YES" attributeType="String"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Portfolio" representedClassName=".Portfolio" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cryptoId" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Portfolio" positionX="94.9453125" positionY="-53.5546875" width="128" height="28"/>
+        <element name="ActivityHistory" positionX="99" positionY="-54" width="128" height="74"/>
+    </elements>
+</model>
